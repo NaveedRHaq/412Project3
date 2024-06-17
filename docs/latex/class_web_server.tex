@@ -1,0 +1,124 @@
+\doxysection{Web\+Server Class Reference}
+\hypertarget{class_web_server}{}\label{class_web_server}\index{WebServer@{WebServer}}
+
+
+Represents a web server that processes requests.  
+
+
+
+
+{\ttfamily \#include $<$Web\+Server.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_web_server_ad053f4e1808a3c10c7522d0dbbbc031a}{Web\+Server}} ()
+\begin{DoxyCompactList}\small\item\em Constructs a new \doxylink{class_web_server}{Web\+Server} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_web_server_abd608c2d284f15e57ddbd08a5cf771a3}{process\+Request}} (\mbox{\hyperlink{class_request}{Request}} \&request)
+\begin{DoxyCompactList}\small\item\em Processes a given request. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_web_server_a4109e02421149799d2c2a7c2cdd9dede}{update\+Server\+Time}} (int clock\+\_\+cycles)
+\begin{DoxyCompactList}\small\item\em Updates the server\textquotesingle{}s remaining processing time. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_web_server_a1537bfcaccd90267c1f74823e6aeedb8}{is\+\_\+busy}}
+\begin{DoxyCompactList}\small\item\em Indicates if the server is busy. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_web_server_aa1f97e81a6c6a68373e597704fe93f2d}{time\+Left}}
+\begin{DoxyCompactList}\small\item\em Time remaining to process the current request. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_web_server_a65b6bcdea54d0ba676d0a9dfa192f68b}{ip\+\_\+in}}
+\item 
+std\+::string \mbox{\hyperlink{class_web_server_afc489da4c451f3bfccbb173187ffa9b9}{ip\+\_\+out}}
+\begin{DoxyCompactList}\small\item\em Ip in and out address of the current request. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a web server that processes requests. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_web_server_ad053f4e1808a3c10c7522d0dbbbc031a}\index{WebServer@{WebServer}!WebServer@{WebServer}}
+\index{WebServer@{WebServer}!WebServer@{WebServer}}
+\doxysubsubsection{\texorpdfstring{WebServer()}{WebServer()}}
+{\footnotesize\ttfamily \label{class_web_server_ad053f4e1808a3c10c7522d0dbbbc031a} 
+Web\+Server\+::\+Web\+Server (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructs a new \doxylink{class_web_server}{Web\+Server} object. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_web_server_abd608c2d284f15e57ddbd08a5cf771a3}\index{WebServer@{WebServer}!processRequest@{processRequest}}
+\index{processRequest@{processRequest}!WebServer@{WebServer}}
+\doxysubsubsection{\texorpdfstring{processRequest()}{processRequest()}}
+{\footnotesize\ttfamily \label{class_web_server_abd608c2d284f15e57ddbd08a5cf771a3} 
+void Web\+Server\+::process\+Request (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_request}{Request}} \&}]{request}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Processes a given request. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em request} & The request to process. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_web_server_a4109e02421149799d2c2a7c2cdd9dede}\index{WebServer@{WebServer}!updateServerTime@{updateServerTime}}
+\index{updateServerTime@{updateServerTime}!WebServer@{WebServer}}
+\doxysubsubsection{\texorpdfstring{updateServerTime()}{updateServerTime()}}
+{\footnotesize\ttfamily \label{class_web_server_a4109e02421149799d2c2a7c2cdd9dede} 
+void Web\+Server\+::update\+Server\+Time (\begin{DoxyParamCaption}\item[{int}]{clock\+\_\+cycles}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Updates the server\textquotesingle{}s remaining processing time. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em clock\+\_\+cycles} & The number of clock cycles to update. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_web_server_a65b6bcdea54d0ba676d0a9dfa192f68b}\index{WebServer@{WebServer}!ip\_in@{ip\_in}}
+\index{ip\_in@{ip\_in}!WebServer@{WebServer}}
+\doxysubsubsection{\texorpdfstring{ip\_in}{ip\_in}}
+{\footnotesize\ttfamily \label{class_web_server_a65b6bcdea54d0ba676d0a9dfa192f68b} 
+std\+::string Web\+Server\+::ip\+\_\+in}
+
+\Hypertarget{class_web_server_afc489da4c451f3bfccbb173187ffa9b9}\index{WebServer@{WebServer}!ip\_out@{ip\_out}}
+\index{ip\_out@{ip\_out}!WebServer@{WebServer}}
+\doxysubsubsection{\texorpdfstring{ip\_out}{ip\_out}}
+{\footnotesize\ttfamily \label{class_web_server_afc489da4c451f3bfccbb173187ffa9b9} 
+std\+::string Web\+Server\+::ip\+\_\+out}
+
+
+
+Ip in and out address of the current request. 
+
+\Hypertarget{class_web_server_a1537bfcaccd90267c1f74823e6aeedb8}\index{WebServer@{WebServer}!is\_busy@{is\_busy}}
+\index{is\_busy@{is\_busy}!WebServer@{WebServer}}
+\doxysubsubsection{\texorpdfstring{is\_busy}{is\_busy}}
+{\footnotesize\ttfamily \label{class_web_server_a1537bfcaccd90267c1f74823e6aeedb8} 
+bool Web\+Server\+::is\+\_\+busy}
+
+
+
+Indicates if the server is busy. 
+
+\Hypertarget{class_web_server_aa1f97e81a6c6a68373e597704fe93f2d}\index{WebServer@{WebServer}!timeLeft@{timeLeft}}
+\index{timeLeft@{timeLeft}!WebServer@{WebServer}}
+\doxysubsubsection{\texorpdfstring{timeLeft}{timeLeft}}
+{\footnotesize\ttfamily \label{class_web_server_aa1f97e81a6c6a68373e597704fe93f2d} 
+int Web\+Server\+::time\+Left}
+
+
+
+Time remaining to process the current request. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_web_server_8h}{Web\+Server.\+h}}\end{DoxyCompactItemize}

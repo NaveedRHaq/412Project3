@@ -1,0 +1,6 @@
+PROJECT_NAME           = "Load Balancer Project"
+OUTPUT_DIRECTORY       = ./docs
+INPUT                  = .
+FILE_PATTERNS          = *.cpp *.h
+GENERATE_HTML          = YES
+EXTRACT_ALL            = YES

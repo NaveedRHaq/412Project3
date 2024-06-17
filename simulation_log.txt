@@ -1,0 +1,164 @@
+Time: 1
+Request Queue Size: 495
+Server 0 - Busy, Remaining Time: 7 || 81.233.100.24 -> 221.241.178.90
+Server 1 - Busy, Remaining Time: 9 || 155.93.5.32 -> 207.9.69.154
+Server 2 - Busy, Remaining Time: 4 || 41.119.115.42 -> 66.42.187.19
+Server 3 - Busy, Remaining Time: 9 || 220.174.202.94 -> 90.239.138.172
+Server 4 - Busy, Remaining Time: 13 || 98.86.163.24 -> 218.77.220.38
+------------------------------------------
+Time: 2
+Request Queue Size: 495
+Server 0 - Busy, Remaining Time: 6 || 81.233.100.24 -> 221.241.178.90
+Server 1 - Busy, Remaining Time: 8 || 155.93.5.32 -> 207.9.69.154
+Server 2 - Busy, Remaining Time: 3 || 41.119.115.42 -> 66.42.187.19
+Server 3 - Busy, Remaining Time: 8 || 220.174.202.94 -> 90.239.138.172
+Server 4 - Busy, Remaining Time: 12 || 98.86.163.24 -> 218.77.220.38
+------------------------------------------
+Time: 3
+Request Queue Size: 495
+Server 0 - Busy, Remaining Time: 5 || 81.233.100.24 -> 221.241.178.90
+Server 1 - Busy, Remaining Time: 7 || 155.93.5.32 -> 207.9.69.154
+Server 2 - Busy, Remaining Time: 2 || 41.119.115.42 -> 66.42.187.19
+Server 3 - Busy, Remaining Time: 7 || 220.174.202.94 -> 90.239.138.172
+Server 4 - Busy, Remaining Time: 11 || 98.86.163.24 -> 218.77.220.38
+------------------------------------------
+Time: 4
+Request Queue Size: 495
+Server 0 - Busy, Remaining Time: 4 || 81.233.100.24 -> 221.241.178.90
+Server 1 - Busy, Remaining Time: 6 || 155.93.5.32 -> 207.9.69.154
+Server 2 - Busy, Remaining Time: 1 || 41.119.115.42 -> 66.42.187.19
+Server 3 - Busy, Remaining Time: 6 || 220.174.202.94 -> 90.239.138.172
+Server 4 - Busy, Remaining Time: 10 || 98.86.163.24 -> 218.77.220.38
+------------------------------------------
+Time: 5
+Request Queue Size: 495
+Server 0 - Busy, Remaining Time: 3 || 81.233.100.24 -> 221.241.178.90
+Server 1 - Busy, Remaining Time: 5 || 155.93.5.32 -> 207.9.69.154
+Server 2 - Available, Remaining Time: 0
+Server 3 - Busy, Remaining Time: 5 || 220.174.202.94 -> 90.239.138.172
+Server 4 - Busy, Remaining Time: 9 || 98.86.163.24 -> 218.77.220.38
+------------------------------------------
+Time: 6
+Request Queue Size: 494
+Server 0 - Busy, Remaining Time: 2 || 81.233.100.24 -> 221.241.178.90
+Server 1 - Busy, Remaining Time: 4 || 155.93.5.32 -> 207.9.69.154
+Server 2 - Busy, Remaining Time: 4 || 145.74.102.186 -> 78.19.194.18
+Server 3 - Busy, Remaining Time: 4 || 220.174.202.94 -> 90.239.138.172
+Server 4 - Busy, Remaining Time: 8 || 98.86.163.24 -> 218.77.220.38
+------------------------------------------
+Time: 7
+Request Queue Size: 494
+Server 0 - Busy, Remaining Time: 1 || 81.233.100.24 -> 221.241.178.90
+Server 1 - Busy, Remaining Time: 3 || 155.93.5.32 -> 207.9.69.154
+Server 2 - Busy, Remaining Time: 3 || 145.74.102.186 -> 78.19.194.18
+Server 3 - Busy, Remaining Time: 3 || 220.174.202.94 -> 90.239.138.172
+Server 4 - Busy, Remaining Time: 7 || 98.86.163.24 -> 218.77.220.38
+------------------------------------------
+Time: 8
+Request Queue Size: 494
+Server 0 - Available, Remaining Time: 0
+Server 1 - Busy, Remaining Time: 2 || 155.93.5.32 -> 207.9.69.154
+Server 2 - Busy, Remaining Time: 2 || 145.74.102.186 -> 78.19.194.18
+Server 3 - Busy, Remaining Time: 2 || 220.174.202.94 -> 90.239.138.172
+Server 4 - Busy, Remaining Time: 6 || 98.86.163.24 -> 218.77.220.38
+------------------------------------------
+Time: 9
+Request Queue Size: 493
+Server 0 - Busy, Remaining Time: 2 || 97.212.70.58 -> 0.44.9.170
+Server 1 - Busy, Remaining Time: 1 || 155.93.5.32 -> 207.9.69.154
+Server 2 - Busy, Remaining Time: 1 || 145.74.102.186 -> 78.19.194.18
+Server 3 - Busy, Remaining Time: 1 || 220.174.202.94 -> 90.239.138.172
+Server 4 - Busy, Remaining Time: 5 || 98.86.163.24 -> 218.77.220.38
+------------------------------------------
+Random Request Added
+Time: 10
+Request Queue Size: 494
+Server 0 - Busy, Remaining Time: 1 || 97.212.70.58 -> 0.44.9.170
+Server 1 - Available, Remaining Time: 0
+Server 2 - Available, Remaining Time: 0
+Server 3 - Available, Remaining Time: 0
+Server 4 - Busy, Remaining Time: 4 || 98.86.163.24 -> 218.77.220.38
+------------------------------------------
+Random Request Added
+Time: 11
+Request Queue Size: 492
+Server 0 - Available, Remaining Time: 0
+Server 1 - Busy, Remaining Time: 14 || 144.57.62.105 -> 143.17.54.28
+Server 2 - Busy, Remaining Time: 3 || 71.23.212.39 -> 107.179.47.222
+Server 3 - Busy, Remaining Time: 10 || 146.171.213.28 -> 246.196.163.123
+Server 4 - Busy, Remaining Time: 3 || 98.86.163.24 -> 218.77.220.38
+------------------------------------------
+Time: 12
+Request Queue Size: 491
+Server 0 - Busy, Remaining Time: 3 || 106.49.187.218 -> 147.39.94.180
+Server 1 - Busy, Remaining Time: 13 || 144.57.62.105 -> 143.17.54.28
+Server 2 - Busy, Remaining Time: 2 || 71.23.212.39 -> 107.179.47.222
+Server 3 - Busy, Remaining Time: 9 || 146.171.213.28 -> 246.196.163.123
+Server 4 - Busy, Remaining Time: 2 || 98.86.163.24 -> 218.77.220.38
+------------------------------------------
+Time: 13
+Request Queue Size: 491
+Server 0 - Busy, Remaining Time: 2 || 106.49.187.218 -> 147.39.94.180
+Server 1 - Busy, Remaining Time: 12 || 144.57.62.105 -> 143.17.54.28
+Server 2 - Busy, Remaining Time: 1 || 71.23.212.39 -> 107.179.47.222
+Server 3 - Busy, Remaining Time: 8 || 146.171.213.28 -> 246.196.163.123
+Server 4 - Busy, Remaining Time: 1 || 98.86.163.24 -> 218.77.220.38
+------------------------------------------
+Time: 14
+Request Queue Size: 491
+Server 0 - Busy, Remaining Time: 1 || 106.49.187.218 -> 147.39.94.180
+Server 1 - Busy, Remaining Time: 11 || 144.57.62.105 -> 143.17.54.28
+Server 2 - Available, Remaining Time: 0
+Server 3 - Busy, Remaining Time: 7 || 146.171.213.28 -> 246.196.163.123
+Server 4 - Available, Remaining Time: 0
+------------------------------------------
+Time: 15
+Request Queue Size: 489
+Server 0 - Available, Remaining Time: 0
+Server 1 - Busy, Remaining Time: 10 || 144.57.62.105 -> 143.17.54.28
+Server 2 - Busy, Remaining Time: 4 || 252.135.111.236 -> 202.130.206.12
+Server 3 - Busy, Remaining Time: 6 || 146.171.213.28 -> 246.196.163.123
+Server 4 - Busy, Remaining Time: 10 || 194.244.161.240 -> 177.64.18.10
+------------------------------------------
+Time: 16
+Request Queue Size: 488
+Server 0 - Busy, Remaining Time: 7 || 225.233.143.231 -> 81.53.141.190
+Server 1 - Busy, Remaining Time: 9 || 144.57.62.105 -> 143.17.54.28
+Server 2 - Busy, Remaining Time: 3 || 252.135.111.236 -> 202.130.206.12
+Server 3 - Busy, Remaining Time: 5 || 146.171.213.28 -> 246.196.163.123
+Server 4 - Busy, Remaining Time: 9 || 194.244.161.240 -> 177.64.18.10
+------------------------------------------
+Random Request Added
+Time: 17
+Request Queue Size: 489
+Server 0 - Busy, Remaining Time: 6 || 225.233.143.231 -> 81.53.141.190
+Server 1 - Busy, Remaining Time: 8 || 144.57.62.105 -> 143.17.54.28
+Server 2 - Busy, Remaining Time: 2 || 252.135.111.236 -> 202.130.206.12
+Server 3 - Busy, Remaining Time: 4 || 146.171.213.28 -> 246.196.163.123
+Server 4 - Busy, Remaining Time: 8 || 194.244.161.240 -> 177.64.18.10
+------------------------------------------
+Time: 18
+Request Queue Size: 489
+Server 0 - Busy, Remaining Time: 5 || 225.233.143.231 -> 81.53.141.190
+Server 1 - Busy, Remaining Time: 7 || 144.57.62.105 -> 143.17.54.28
+Server 2 - Busy, Remaining Time: 1 || 252.135.111.236 -> 202.130.206.12
+Server 3 - Busy, Remaining Time: 3 || 146.171.213.28 -> 246.196.163.123
+Server 4 - Busy, Remaining Time: 7 || 194.244.161.240 -> 177.64.18.10
+------------------------------------------
+Random Request Added
+Time: 19
+Request Queue Size: 490
+Server 0 - Busy, Remaining Time: 4 || 225.233.143.231 -> 81.53.141.190
+Server 1 - Busy, Remaining Time: 6 || 144.57.62.105 -> 143.17.54.28
+Server 2 - Available, Remaining Time: 0
+Server 3 - Busy, Remaining Time: 2 || 146.171.213.28 -> 246.196.163.123
+Server 4 - Busy, Remaining Time: 6 || 194.244.161.240 -> 177.64.18.10
+------------------------------------------
+Time: 20
+Request Queue Size: 489
+Server 0 - Busy, Remaining Time: 3 || 225.233.143.231 -> 81.53.141.190
+Server 1 - Busy, Remaining Time: 5 || 144.57.62.105 -> 143.17.54.28
+Server 2 - Busy, Remaining Time: 12 || 116.109.32.44 -> 142.106.241.190
+Server 3 - Busy, Remaining Time: 1 || 146.171.213.28 -> 246.196.163.123
+Server 4 - Busy, Remaining Time: 5 || 194.244.161.240 -> 177.64.18.10
+------------------------------------------

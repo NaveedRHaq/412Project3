@@ -1,0 +1,40 @@
+\doxysection{Web\+Server.\+h}
+\hypertarget{_web_server_8h_source}{}\label{_web_server_8h_source}\mbox{\hyperlink{_web_server_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ WEBSERVER\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ WEBSERVER\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_request_8h}{Request.h}}"{}}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00010\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_web_server}{WebServer}}\ \{}
+\DoxyCodeLine{00011\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00012\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_web_server_a1537bfcaccd90267c1f74823e6aeedb8}{is\_busy}};\ }
+\DoxyCodeLine{00013\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_web_server_aa1f97e81a6c6a68373e597704fe93f2d}{timeLeft}};\ }
+\DoxyCodeLine{00014\ \ \ \ \ std::string\ \mbox{\hyperlink{class_web_server_a65b6bcdea54d0ba676d0a9dfa192f68b}{ip\_in}},\ \mbox{\hyperlink{class_web_server_afc489da4c451f3bfccbb173187ffa9b9}{ip\_out}};\ }
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00019\ \ \ \ \ \mbox{\hyperlink{class_web_server_ad053f4e1808a3c10c7522d0dbbbc031a}{WebServer}}()\ :\ \mbox{\hyperlink{class_web_server_a1537bfcaccd90267c1f74823e6aeedb8}{is\_busy}}(false),\ \mbox{\hyperlink{class_web_server_aa1f97e81a6c6a68373e597704fe93f2d}{timeLeft}}(0),\ \mbox{\hyperlink{class_web_server_a65b6bcdea54d0ba676d0a9dfa192f68b}{ip\_in}}(\textcolor{stringliteral}{"{}"{}}),\ \mbox{\hyperlink{class_web_server_afc489da4c451f3bfccbb173187ffa9b9}{ip\_out}}(\textcolor{stringliteral}{"{}"{}})\ \{\}}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_web_server_abd608c2d284f15e57ddbd08a5cf771a3}{processRequest}}(\mbox{\hyperlink{class_request}{Request}}\&\ request)\ \{}
+\DoxyCodeLine{00026\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_web_server_a1537bfcaccd90267c1f74823e6aeedb8}{is\_busy}}\ =\ \textcolor{keyword}{true};}
+\DoxyCodeLine{00027\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_web_server_aa1f97e81a6c6a68373e597704fe93f2d}{timeLeft}}\ =\ request.\mbox{\hyperlink{class_request_a3cfb576ed0b5e08612f3de8bc7cd72e2}{time}};}
+\DoxyCodeLine{00028\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_web_server_a65b6bcdea54d0ba676d0a9dfa192f68b}{ip\_in}}\ =\ request.\mbox{\hyperlink{class_request_a9331de2ccac6bca9a37616d103db6568}{ip\_in}};}
+\DoxyCodeLine{00029\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_web_server_afc489da4c451f3bfccbb173187ffa9b9}{ip\_out}}\ =\ request.\mbox{\hyperlink{class_request_a789e85de4e06e293c519fa6ed14539f3}{ip\_out}};}
+\DoxyCodeLine{00030\ \ \ \ \ \}}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_web_server_a4109e02421149799d2c2a7c2cdd9dede}{updateServerTime}}(\textcolor{keywordtype}{int}\ clock\_cycles)\ \{}
+\DoxyCodeLine{00037\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!\mbox{\hyperlink{class_web_server_a1537bfcaccd90267c1f74823e6aeedb8}{is\_busy}})\ \textcolor{keywordflow}{return};}
+\DoxyCodeLine{00038\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00039\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_web_server_aa1f97e81a6c6a68373e597704fe93f2d}{timeLeft}}\ -\/=\ clock\_cycles;}
+\DoxyCodeLine{00040\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\mbox{\hyperlink{class_web_server_aa1f97e81a6c6a68373e597704fe93f2d}{timeLeft}}\ <=\ 0)\ \{}
+\DoxyCodeLine{00041\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_web_server_a1537bfcaccd90267c1f74823e6aeedb8}{is\_busy}}\ =\ \textcolor{keyword}{false};}
+\DoxyCodeLine{00042\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_web_server_aa1f97e81a6c6a68373e597704fe93f2d}{timeLeft}}\ =\ 0;}
+\DoxyCodeLine{00043\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_web_server_a65b6bcdea54d0ba676d0a9dfa192f68b}{ip\_in}}\ =\ \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{00044\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_web_server_afc489da4c451f3bfccbb173187ffa9b9}{ip\_out}}\ =\ \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{00045\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00046\ \ \ \ \ \}}
+\DoxyCodeLine{00047\ \ \ \ \ }
+\DoxyCodeLine{00048\ \};}
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00050\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ WEBSERVER\_H}}
+
+\end{DoxyCode}

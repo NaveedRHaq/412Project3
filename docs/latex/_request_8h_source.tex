@@ -1,0 +1,33 @@
+\doxysection{Request.\+h}
+\hypertarget{_request_8h_source}{}\label{_request_8h_source}\mbox{\hyperlink{_request_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ REQUEST\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ REQUEST\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <cstdlib>}}
+\DoxyCodeLine{00006\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00011\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_request}{Request}}\ \{}
+\DoxyCodeLine{00012\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00013\ \ \ \ \ std::string\ \mbox{\hyperlink{class_request_a9331de2ccac6bca9a37616d103db6568}{ip\_in}};\ }
+\DoxyCodeLine{00014\ \ \ \ \ std::string\ \mbox{\hyperlink{class_request_a789e85de4e06e293c519fa6ed14539f3}{ip\_out}};\ }
+\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_request_a3cfb576ed0b5e08612f3de8bc7cd72e2}{time}};\ }
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00020\ \ \ \ \ \mbox{\hyperlink{class_request_afaf8d8928de7ffff8a3767589489bd33}{Request}}()\ \{}
+\DoxyCodeLine{00021\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_request_a9331de2ccac6bca9a37616d103db6568}{ip\_in}}\ =\ generateIP();}
+\DoxyCodeLine{00022\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_request_a789e85de4e06e293c519fa6ed14539f3}{ip\_out}}\ =\ generateIP();}
+\DoxyCodeLine{00023\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_request_a3cfb576ed0b5e08612f3de8bc7cd72e2}{time}}\ =\ rand()\ \%\ 15\ +\ 1;\ \textcolor{comment}{//\ Random\ time\ between\ 1\ and\ 15}}
+\DoxyCodeLine{00024\ \ \ \ \ \}}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00026\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00031\ \textcolor{keywordtype}{string}\ generateIP()\ \{}
+\DoxyCodeLine{00032\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ IP\ =\ to\_string(rand()\ \%\ 256)\ +\ \textcolor{stringliteral}{"{}."{}}\ +\ to\_string(rand()\ \%\ 256)\ +\ \textcolor{stringliteral}{"{}."{}}\ +\ \ to\_string(rand()\ \%\ 256)\ +\ \textcolor{stringliteral}{"{}."{}}\ +\ to\_string(rand()\ \%\ 256);}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00035\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ IP;}
+\DoxyCodeLine{00036\ \ \ \ \ \}}
+\DoxyCodeLine{00037\ \};}
+\DoxyCodeLine{00038\ }
+\DoxyCodeLine{00039\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ REQUEST\_H}}
+
+\end{DoxyCode}
